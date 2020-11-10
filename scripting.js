@@ -10,11 +10,10 @@ function piecesize() {
   pieceimg.style.bottom = craneimg.height*0.453 + "px";
   pieceimg.style.left = craneimg.width*0.758 + "px";
 }
-function movingcrane(){
+function movingcrane(scroll){
   let craneimg = document.querySelector("#crane");
-  let pieceimg = document.querySelector("#piece");
-  let scrollPercent = window.scrollY/window.height;
-  craneimg.style.width = window.width*scrollPercent + 'px';
+  let scrollPercent = scroll/window.height;
+  craneimg.style.left = window.width*scrollPercent + 'px';
 }
 function main(){
   piecesize();
@@ -23,5 +22,7 @@ function main(){
 window.onresize = main;
 window.onload = main;
 window.addEventListener('scroll', function(event) {
-    console.log(event);
+  let craneimg = document.querySelector("#crane");
+  let scrollPercent = event.path[1].scrollY/window.height;
+  craneimg.style.left = window.width*scrollPercent + 'px';
 });
