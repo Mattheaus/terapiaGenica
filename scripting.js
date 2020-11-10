@@ -25,5 +25,7 @@ window.addEventListener('scroll', function(event) {
   let craneimg = document.querySelector("#crane");
   let scrollPercent = event.path[1].scrollY/window.height;
   craneimg.style.left = window.width*scrollPercent + 'px';
+  console.log(event);
+  console.log(event.scrollY);
   console.log(event.path[1].scrollY);
 });
