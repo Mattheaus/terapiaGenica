@@ -11,6 +11,12 @@ div{
   z-index: -1;
 }
 .back{
+  height: 20vh;
+  z-index: 0;
+  bottom: 0px;
+  position: fixed;
+}
+.back{
   max-height: 100vh;
   z-index: 0;
   position: fixed;
