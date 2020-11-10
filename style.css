@@ -16,6 +16,15 @@ div{
   bottom: 0px;
   position: fixed;
 }
+#building1{
+  left:30vw;
+}
+#building2{
+  left:60vw;
+}
+#building3{
+  left:90vw;
+}
 .back{
   max-height: 100vh;
   z-index: 0;
