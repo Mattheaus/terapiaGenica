@@ -10,10 +10,19 @@ div{
   background: linear-gradient(180deg, rgba(108,195,179,1) 0%, rgba(197,237,226,1) 80%, rgba(197,237,226,1) 100%);
   z-index: -1;
 }
+h1{
+  top: 0px;
+  left: 40vw;
+}
+body{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 .buildings{
   width: 30vw;
   position: fixed;
-  bottom: 0px
+  bottom: 0px;
 }
 #building1{
   left:0vw;
@@ -53,4 +62,14 @@ div{
 }
 body{
   z-index: 1;
+}
+#namesbox{
+  height: 7vh;
+  right: 0px;
+}
+.names{
+  font-size: 0.8vh;
+  color: white;
+  position: relative;
+  padding: 0.1vh 0px 0.1vh 0px;
 }
