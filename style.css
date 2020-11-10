@@ -12,9 +12,7 @@ div{
 }
 .buildings{
   height: 20vh;
-  z-index: 0;
   bottom: 0px;
-  position: fixed;
 }
 #building1{
   left:30vw;
