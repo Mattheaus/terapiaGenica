@@ -8,22 +8,27 @@ html{
   max-height: 100vh;
   z-index: -1;
   position: fixed;
-  left: 0px;
-  top: 0px;
 }
 #logo{
   width: 1vw;
   height: auto;
+  left: 0px;
+  top: 0px;
 }
 #piece{
+  left: 0px;
+  top: 0px;
 }
 #strand{
   width: auto;
   height: 100vh;
   left: 90vw;
+  top: 0px;
 }
 #crane{
   width: 25vw;
   height: auto;
+  left: 0px;
+  top: 0px;
 }
 
