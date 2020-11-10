@@ -11,16 +11,20 @@ div{
   z-index: -1;
 }
 .buildings{
-  height: 20vh;
-  bottom: 0px;
+  width: 30vw;
+  position: fixed;
+  bottom: 0px
 }
 #building1{
-  left:30vw;
+  left:0vw;
 }
 #building2{
-  left:60vw;
+  left:30vw;
 }
 #building3{
+  left:60vw;
+}
+#building4{
   left:90vw;
 }
 .back{
