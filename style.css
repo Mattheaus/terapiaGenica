@@ -13,6 +13,7 @@ div{
 h1{
   top: 0px;
   left: 40vw;
+  width: fit-content;
 }
 body{
   position: fixed;
@@ -64,12 +65,123 @@ body{
   z-index: 1;
 }
 #namesbox{
-  height: 7vh;
-  right: 0px;
+  height: 16vh;
+  left: 85vw;
+  width: fit-content;
+  background: none;
+  z-index: 1;
 }
 .names{
-  font-size: 0.8vh;
+  font-size: 1.7vh;
+  margin: 0.05vh 0px 0.05vh 0px;
   color: white;
-  position: relative;
-  padding: 0.1vh 0px 0.1vh 0px;
+}
+p{
+  font-size: 2.5vh;
+  margin: 0.09vh 0px 0.09vh 0px;
+}
+p, h1, h2{
+  width: fit-content;
+  position: fixed;
+}
+
+#titulo1{
+  left: 10vw;
+}
+#t1{
+
+}
+#t2{
+
+}
+#t3{
+
+}
+#t4{
+
+}
+
+
+#titulo2{
+  left: 40vw;
+  top: 10vh;
+}
+#t5{
+
+}
+#t6{
+
+}
+#t7{
+
+}
+#t8{
+
+}
+#t9{
+
+}
+#t10{
+
+}
+#t11{
+
+}
+
+
+#titulo3{
+  left: 60vw;
+}
+#t12{
+
+}
+#t13{
+
+}
+#t14{
+
+}
+#t15{
+
+}
+#t16{
+
+}
+
+
+#titulo4{
+  
+}
+#subtitulo1{
+
+}
+#t17{
+
+}
+#t18{
+
+}
+
+#subtitulo2{
+  
+}
+#t19{
+
+}
+
+#subtitulo3{
+  
+}
+#t20{
+
+}
+
+#subtitulo4{
+  
+}
+#t21{
+
+}
+#t22{
+
 }
