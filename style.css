@@ -10,7 +10,7 @@ div{
   background: linear-gradient(180deg, rgba(108,195,179,1) 0%, rgba(197,237,226,1) 67%, rgba(197,237,226,1) 100%);
   z-index: -1;
 }
-.back{
+.buildings{
   height: 20vh;
   z-index: 0;
   bottom: 0px;
