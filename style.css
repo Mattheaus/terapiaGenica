@@ -85,6 +85,35 @@ p{
 }
 p, h1, h2{
   width: fit-content;
+}
+#sec1{
+  width: 29vw;
+  left: 0vw;
+  top: 10vh;
+  position: fixed;
+}
+#sec2{
+  width: 29vw;
+  left: 30vw;
+  top: 10vh;
+  position: fixed;
+}
+#sec3{
+  width: 29vw;
+  left: 30vw;
+  top: 47vh;
+  position: fixed;
+}
+#sec4{
+  width: 29vw;
+  left: 60vw;
+  top: 10vh;
+  position: fixed;
+}
+#sec5{
+  width: 29vw;
+  left: 0vw;
+  top: 30vh;
   position: fixed;
 }
 
