@@ -45,9 +45,9 @@ body{
 }
 #logo{
   width: auto;
-  height: 7%;
-  right: 0px;
-  bottom: 0px;
+  height: cc;
+  left: 0px;
+  top: 0px;
   z-index: 1;
 }
 #strand{
@@ -68,7 +68,7 @@ body{
 #namesbox{
   position: fixed;
   height: 16vh;
-  left: 85vw;
+  top: 8%;
   width: fit-content;
   background: none;
   z-index: 1;
