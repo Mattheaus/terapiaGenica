@@ -20,6 +20,7 @@ html{
 #strand{
   width: auto;
   height: 100vh;
+  left: 90vw;
 }
 #crane{
   width: 10vw;
