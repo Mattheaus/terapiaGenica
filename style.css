@@ -11,3 +11,16 @@ html{
   left: 0px;
   top: 0px;
 }
+#logo{
+}
+#piece{
+}
+#strand{
+  width: auto;
+  height: 100vh;
+}
+#crane{
+  width: 10vh;
+  height: auto;
+}
+
